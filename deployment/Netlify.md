@@ -1,0 +1,44 @@
+# Netlify
+
+This is a guide on how you can deploy your App into Netlify.
+
+1. Install Netlify CLI globally
+
+```shell
+  npm i -g netlify-cli
+```
+
+2. Login to your Netlify Account (Accept all)
+
+```shell
+ ntl login
+```
+
+3. Create a netlify.toml in the root directory
+
+```shell
+[build]
+  publish = "public"
+  functions = "functions"
+
+[dev]
+  autoLaunch = false
+```
+
+4. Run the command ntl init
+
+```shell
+ntl init
+```
+
+5. After following the instruction from init you can open your webpage
+
+```shell
+ntl open
+```
+
+# Sitenote
+
+## Serverless Functions
+
+You can access your serverless function via the url `/.netlify/functions/name_of_the_function` in my case it would be `/.netlify/functions/hello-world`
