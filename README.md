@@ -6,4 +6,4 @@ This is a Collection which will help me doing a repetive Task much quicker like 
 
 ## Deployment
 
-[Netlify]("deployment/Netlify.md")
+[Netlify](deployment/Netlify.md)
