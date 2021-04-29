@@ -34,10 +34,26 @@ ntl init
 5. After following the instruction from init you can open your webpage
 
 ```shell
-ntl open
+ntl open:site
+||
+ntl open:admin
 ```
 
 # Sitenote
+
+## Normal CRA Websites
+
+```shell
+ntl deploy
+```
+
+If the draft url looks good for you, you can then run
+
+```shell
+ntl deploy --prod
+```
+
+This will generate you a **production ready url**
 
 ## Serverless Functions
 
