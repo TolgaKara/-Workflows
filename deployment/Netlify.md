@@ -58,3 +58,12 @@ This will generate you a **production ready url**
 ## Serverless Functions
 
 You can access your serverless function via the url `/.netlify/functions/name_of_the_function` in my case it would be `/.netlify/functions/hello-world`
+
+## Publishing env to netlify
+
+ENV is just locally avaible but with this method you can import it to the server and the developer in your team can use without creating a local file called .env its all in the netlify dashboard.
+
+```shell
+ntl env:import .env
+
+```
